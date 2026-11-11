@@ -1,0 +1,21 @@
+Reachable: Spawn
+Reachable: General Ward
+Reachable: Coach Brooks
+Reachable: Jordan Cross
+Reachable: Visiting contact
+Reachable: Evaluation
+Reachable: Assignment
+Reachable: Records
+Reachable: Procurement
+Reachable: Oversight
+Reachable: Fixer
+Reachable: Market
+Reachable: Cafe
+Reachable: Sparring
+Reachable: Karate
+Reachable: Judo
+Reachable: Taekwondo
+Reachable: Archery
+Reachable: Fencing
+Reachable: Sport shooting
+PASS: all 20 destinations reachable across 28147 sampled capsule locations; geometry only, not Unreal physics.

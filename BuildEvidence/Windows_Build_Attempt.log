@@ -1,0 +1,3 @@
+BLOCKED/FAILED: Windows build stages require a Windows machine with Unreal and its C++ toolchain.
+Exit code: 1
+No Unreal build stage executed.

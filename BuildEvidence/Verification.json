@@ -1,0 +1,213 @@
+{
+  "edition": "Eight-Stage Demo Source 1",
+  "baseline": "recovered v0.6; v2.1 unavailable",
+  "local_checks": "PASS",
+  "results": [
+    {
+      "name": "source_preflight",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "Scripts/verify_source.py"
+      ],
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "mission_data",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "Scripts/verify_demo_missions.py"
+      ],
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "pipeline_safeguards",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "Tests",
+        "-p",
+        "test_*.py"
+      ],
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "verify_rules_compile",
+      "command": [
+        "/usr/bin/g++",
+        "-std=c++17",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "-pedantic",
+        "-fsanitize=undefined",
+        "-fno-sanitize-recover=all",
+        "Scripts/verify_rules.cpp",
+        "-o",
+        "/tmp/tmpdkvxyqnf/verify_rules"
+      ],
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "verify_rules",
+      "command": [
+        "/tmp/tmpdkvxyqnf/verify_rules"
+      ],
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "verify_pedagogy_compile",
+      "command": [
+        "/usr/bin/g++",
+        "-std=c++17",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "-pedantic",
+        "-fsanitize=undefined",
+        "-fno-sanitize-recover=all",
+        "Scripts/verify_pedagogy.cpp",
+        "-o",
+        "/tmp/tmpdkvxyqnf/verify_pedagogy"
+      ],
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "verify_pedagogy",
+      "command": [
+        "/tmp/tmpdkvxyqnf/verify_pedagogy"
+      ],
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "story_routing_test_compile",
+      "command": [
+        "/usr/bin/g++",
+        "-std=c++17",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "-pedantic",
+        "-fsanitize=undefined",
+        "-fno-sanitize-recover=all",
+        "Tests/story_routing_test.cpp",
+        "-o",
+        "/tmp/tmpdkvxyqnf/story_routing_test"
+      ],
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "story_routing_test",
+      "command": [
+        "/tmp/tmpdkvxyqnf/story_routing_test"
+      ],
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "narrative_demo_test_compile",
+      "command": [
+        "/usr/bin/g++",
+        "-std=c++17",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "-pedantic",
+        "-fsanitize=undefined",
+        "-fno-sanitize-recover=all",
+        "Tests/narrative_demo_test.cpp",
+        "-o",
+        "/tmp/tmpdkvxyqnf/narrative_demo_test"
+      ],
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "narrative_demo_test",
+      "command": [
+        "/tmp/tmpdkvxyqnf/narrative_demo_test"
+      ],
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "combat_demo_test_compile",
+      "command": [
+        "/usr/bin/g++",
+        "-std=c++17",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "-pedantic",
+        "-fsanitize=undefined",
+        "-fno-sanitize-recover=all",
+        "Tests/combat_demo_test.cpp",
+        "-o",
+        "/tmp/tmpdkvxyqnf/combat_demo_test"
+      ],
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "combat_demo_test",
+      "command": [
+        "/tmp/tmpdkvxyqnf/combat_demo_test"
+      ],
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "blockout_test_compile",
+      "command": [
+        "/usr/bin/g++",
+        "-std=c++17",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "-pedantic",
+        "-fsanitize=undefined",
+        "-fno-sanitize-recover=all",
+        "Tests/blockout_test.cpp",
+        "-o",
+        "/tmp/tmpdkvxyqnf/blockout_test"
+      ],
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "blockout_test",
+      "command": [
+        "/tmp/tmpdkvxyqnf/blockout_test"
+      ],
+      "exit_code": 0,
+      "status": "PASS"
+    }
+  ],
+  "unreal_compile": "NOT_RUN_ENGINE_UNAVAILABLE",
+  "unreal_automation": "NOT_RUN_ENGINE_UNAVAILABLE",
+  "visual_playtest": "NOT_RUN",
+  "windows_package": "NOT_CREATED",
+  "narrative_paths": 144,
+  "narrative_assertions": 14478,
+  "combat_assertions": 1226,
+  "blockout_destinations_reachable": 20,
+  "blockout_sampled_reachable_positions": 28147,
+  "source_preflight_assertions": 84,
+  "python_tests": 11,
+  "unreal_automation_tests_authored": [
+    "RightOrWrong.Narrative.SaveGameRoundTrip",
+    "RightOrWrong.Combat.SaveGameRoundTrip"
+  ],
+  "windows_attempt_exit_code": 1,
+  "plugversal": "NOT_TESTED_NO_PACKAGE"
+}

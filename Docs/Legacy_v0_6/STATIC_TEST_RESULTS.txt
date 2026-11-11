@@ -1,0 +1,124 @@
+Right or Wrong v0.3 STATIC VERIFICATION
+
+PASS: Unreal Engine project is valid JSON
+PASS: C++ runtime module declared
+PASS: Present: RightOrWrong.Build.cs
+PASS: Present: RightOrWrong.cpp
+PASS: Present: ROWGameMode.h
+PASS: Present: ROWGameMode.cpp
+PASS: Present: ROWCharacter.h
+PASS: Present: ROWCharacter.cpp
+PASS: Present: ROWVenue.h
+PASS: Present: ROWVenue.cpp
+PASS: Present: ROWOpponent.h
+PASS: Present: ROWOpponent.cpp
+PASS: Present: ROWWorldDirector.h
+PASS: Present: ROWWorldDirector.cpp
+PASS: Present: ROWHUD.h
+PASS: Present: ROWHUD.cpp
+PASS: Present: ROWSaveGame.h
+PASS: Present: ROWProgressionRules.h
+PASS: Generated header in ROWWorldDirector.h
+PASS: Generated body in ROWWorldDirector.h
+PASS: Generated header in ROWVenue.h
+PASS: Generated body in ROWVenue.h
+PASS: Generated header in ROWCharacter.h
+PASS: Generated body in ROWCharacter.h
+PASS: Generated header in ROWGameMode.h
+PASS: Generated body in ROWGameMode.h
+PASS: Generated header in ROWOpponent.h
+PASS: Generated body in ROWOpponent.h
+PASS: Generated header in ROWHUD.h
+PASS: Generated body in ROWHUD.h
+PASS: Generated header in ROWSaveGame.h
+PASS: Generated body in ROWSaveGame.h
+PASS: Mapped action Jump
+PASS: Mapped action Interact
+PASS: Mapped action Attack
+PASS: Mapped action Block
+PASS: Mapped action Sprint
+PASS: Mapped action Save
+PASS: Mapped action Load
+PASS: Mapped action ChoiceOne
+PASS: Mapped action ChoiceTwo
+PASS: Mapped action ChoiceThree
+PASS: Mapped action ChoiceFour
+PASS: Mapped action ChoiceFive
+PASS: Mapped action ChoiceSix
+PASS: Mapped axis MoveForward
+PASS: Mapped axis MoveRight
+PASS: Mapped axis Turn
+PASS: Mapped axis LookUp
+PASS: Local include ROWVenue.cpp: ROWVenue.h
+PASS: Local include ROWWorldDirector.cpp: ROWWorldDirector.h
+PASS: Local include ROWWorldDirector.cpp: ROWCharacter.h
+PASS: Local include ROWWorldDirector.cpp: ROWOpponent.h
+PASS: Local include ROWWorldDirector.cpp: ROWSaveGame.h
+PASS: Local include ROWWorldDirector.cpp: ROWProgressionRules.h
+PASS: Local include ROWGameMode.cpp: ROWGameMode.h
+PASS: Local include ROWGameMode.cpp: ROWCharacter.h
+PASS: Local include ROWGameMode.cpp: ROWWorldDirector.h
+PASS: Local include ROWGameMode.cpp: ROWHUD.h
+PASS: Local include ROWHUD.cpp: ROWHUD.h
+PASS: Local include ROWHUD.cpp: ROWGameMode.h
+PASS: Local include ROWHUD.cpp: ROWWorldDirector.h
+PASS: Local include ROWHUD.cpp: ROWCharacter.h
+PASS: Local include ROWCharacter.cpp: ROWCharacter.h
+PASS: Local include ROWCharacter.cpp: ROWGameMode.h
+PASS: Local include ROWCharacter.cpp: ROWWorldDirector.h
+PASS: Local include ROWOpponent.cpp: ROWOpponent.h
+PASS: Local include ROWOpponent.cpp: ROWWorldDirector.h
+PASS: Local include ROWOpponent.cpp: ROWCharacter.h
+PASS: Mission location present: KARATE DOJO
+PASS: Mission location present: POLICE STATION
+PASS: Mission location present: UNDERGROUND CLUB
+PASS: Mission location present: INVESTIGATION CLUE
+PASS: Mission location present: VANGUARD RECRUIT ACADEMY
+PASS: Mission location present: HIGHCREST
+PASS: Mission location present: SOUTH WARD
+PASS: Progress tracked: SportsReputation
+PASS: Progress tracked: LawReputation
+PASS: Progress tracked: CrimeReputation
+PASS: Progress tracked: KarateWins
+PASS: Progress tracked: PatrolsCompleted
+PASS: Progress tracked: UndergroundWins
+PASS: All six confirmed sports present
+PASS: Unimplemented sports clearly labeled
+PASS: Story state saved and loaded: RecruitPresentation
+PASS: Story state saved and loaded: bRecruitmentBriefed
+PASS: Story state saved and loaded: bEvidenceDecisionPending
+PASS: Story state saved and loaded: bOpeningCaseResolved
+PASS: Story state saved and loaded: OpeningCaseChoice
+PASS: Story state saved and loaded: PublicTrust
+PASS: Story state saved and loaded: InvestorFavor
+PASS: 18-year-old protagonist defined
+PASS: Three moral-choice branches declared
+PASS: Narrative documentation present: STORY_BIBLE.md
+PASS: Narrative documentation present: TRAINING_SYSTEM.md
+PASS: Narrative documentation present: IMPLEMENTATION_STATUS.md
+PASS: Sport has a training rule: Karate
+PASS: Sport has a training rule: Judo
+PASS: Sport has a training rule: Taekwondo
+PASS: Sport has a training rule: Archery
+PASS: Sport has a training rule: Fencing
+PASS: Sport has a training rule: Sport Shooting
+PASS: Aftermath mission destination exists: VANGUARD PROCUREMENT OFFICE
+PASS: Aftermath mission destination exists: CIVILIAN OVERSIGHT OFFICE
+PASS: Aftermath mission destination exists: DOCKLANDS FIXER MEETING
+PASS: v0.3 saved field present: PrimarySport
+PASS: v0.3 saved field present: TrainingXP
+PASS: v0.3 saved field present: bAcademyCertified
+PASS: v0.3 saved field present: bFollowUpDecisionPending
+PASS: v0.3 saved field present: bFollowUpResolved
+PASS: v0.3 saved field present: FollowUpOutcome
+PASS: Six distinct stations are spawned
+PASS: Training has 12-second response
+PASS: Followup choice changes reputation
+PASS: v0.3 documentation present: ACADEMY_CHAPTER.md
+PASS: v0.3 documentation present: DEVELOPER_TEST_PLAN.md
+
+ALL STRUCTURAL CHECKS PASSED. Unreal compilation / PIE / packaging NOT RUN.
+
+PASS: six training cue sequences and six branching aftermath outcomes.
+
+NOT PERFORMED: Unreal Engine compilation, PIE, real physics and animation tests, packaged installers.

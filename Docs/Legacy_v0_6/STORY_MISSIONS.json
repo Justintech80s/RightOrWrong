@@ -1,0 +1,170 @@
+{
+  "project": "Right or Wrong",
+  "version": "0.3",
+  "city_working_name": "Greyhaven",
+  "unit_working_name": "Vanguard Response Directorate",
+  "player_age": 18,
+  "player_profile_options": [
+    "Male",
+    "Female"
+  ],
+  "chapter": "Act I: The Invitation",
+  "missions": [
+    {
+      "id": "ROW_001",
+      "title": "The Recruit",
+      "trigger": "new game",
+      "location": "Vanguard Recruitment Academy",
+      "objective": "Choose recruit profile and report for induction",
+      "status": "basic_interaction_in_code"
+    },
+    {
+      "id": "ROW_002",
+      "title": "The General",
+      "trigger": "academy interaction",
+      "location": "Vanguard Recruitment Academy",
+      "objective": "Receive General Ward's introduction",
+      "status": "text_briefing_in_code"
+    },
+    {
+      "id": "ROW_002A",
+      "title": "The Academy Assessment",
+      "trigger": "General Ward induction complete",
+      "location": "Six Academy training stations",
+      "objective": "Select a primary sport and pass 3 timed tutorial cues",
+      "status": "timed_training_cue_prototype_in_code",
+      "key_choices": {
+        "1": "Karate",
+        "2": "Judo",
+        "3": "Taekwondo",
+        "4": "Archery",
+        "5": "Fencing",
+        "6": "Sport Shooting"
+      },
+      "reward": {
+        "primary_sport_training_xp": 30,
+        "law_reputation_first_certification": 5
+      },
+      "limitations": "Keyboard-response training, not realistic sporting mechanics"
+    },
+    {
+      "id": "ROW_003",
+      "title": "The First File",
+      "trigger": "police station interaction",
+      "location": "South-East Evidence Site",
+      "objective": "Locate the clue and make a choice",
+      "status": "basic_investigation_and_three_choices_in_code",
+      "choices": [
+        {
+          "key": 1,
+          "label": "File with Vanguard command",
+          "effects": {
+            "law_reputation": 10,
+            "investor_favor": 15,
+            "public_trust": -5
+          }
+        },
+        {
+          "key": 2,
+          "label": "Deliver to independent oversight",
+          "effects": {
+            "law_reputation": 5,
+            "investor_favor": -10,
+            "public_trust": 20
+          }
+        },
+        {
+          "key": 3,
+          "label": "Sell to criminal fixer",
+          "effects": {
+            "crime_reputation": 20,
+            "cash": 150,
+            "public_trust": -15
+          }
+        }
+      ]
+    },
+    {
+      "id": "ROW_004",
+      "title": "The Reckoning",
+      "trigger": "ROW_003 case decision recorded",
+      "objective": "Visit the destination selected by how the first evidence was handled, then choose an aftermath option",
+      "status": "branch_marker_and_two_choices_each_in_code",
+      "branches": [
+        {
+          "initial_choice": 1,
+          "destination": "Vanguard Procurement Office",
+          "followups": [
+            {
+              "key": 1,
+              "label": "Approve official account",
+              "effects": {
+                "law_reputation": 10,
+                "public_trust": -10,
+                "investor_favor": 15
+              }
+            },
+            {
+              "key": 2,
+              "label": "Challenge contract",
+              "effects": {
+                "law_reputation": 5,
+                "public_trust": 15,
+                "investor_favor": -10
+              }
+            }
+          ]
+        },
+        {
+          "initial_choice": 2,
+          "destination": "Civilian Oversight Office",
+          "followups": [
+            {
+              "key": 1,
+              "label": "Full disclosure",
+              "effects": {
+                "law_reputation": 5,
+                "public_trust": 20,
+                "investor_favor": -5
+              }
+            },
+            {
+              "key": 2,
+              "label": "Shield witnesses",
+              "effects": {
+                "law_reputation": 10,
+                "public_trust": 5,
+                "investor_favor": 5
+              }
+            }
+          ]
+        },
+        {
+          "initial_choice": 3,
+          "destination": "Docklands Fixer Meeting",
+          "followups": [
+            {
+              "key": 1,
+              "label": "Accept another payment",
+              "effects": {
+                "crime_reputation": 20,
+                "public_trust": -10,
+                "cash": 200
+              }
+            },
+            {
+              "key": 2,
+              "label": "Give tip to oversight",
+              "effects": {
+                "law_reputation": 10,
+                "crime_reputation": -5,
+                "public_trust": 10,
+                "investor_favor": -5
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

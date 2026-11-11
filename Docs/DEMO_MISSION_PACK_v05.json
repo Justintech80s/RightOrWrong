@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "missions": [
+    {
+      "id": "ROW_DEMO_01",
+      "title": "Welcome to the Program",
+      "location": "Vanguard Academy",
+      "objectives": [
+        "Attend Ward induction",
+        "Choose any of the six academy programs",
+        "Meet mentor Imani Brooks",
+        "Pass the assessment in the selected program",
+        "Choose whether to report or protect a recruit",
+        "Meet the initial contact"
+      ],
+      "choices": [
+        {
+          "id": "report",
+          "label": "Report the recruit",
+          "reputation": {
+            "law": 2,
+            "academy": 1,
+            "criminal": -1
+          }
+        },
+        {
+          "id": "protect",
+          "label": "Protect the recruit",
+          "reputation": {
+            "law": -1,
+            "academy": 0,
+            "criminal": 1
+          }
+        }
+      ],
+      "requires": [],
+      "program_choices": [
+        "Karate",
+        "Judo",
+        "Taekwondo",
+        "Archery",
+        "Fencing",
+        "Sport Shooting"
+      ]
+    },
+    {
+      "id": "ROW_DEMO_02",
+      "title": "Public Relations",
+      "location": "Sterling Foundation Gala",
+      "objectives": [
+        "Travel to gala",
+        "Observe public protest",
+        "Locate the disputed housing records",
+        "Decide who receives the records"
+      ],
+      "choices": [
+        {
+          "id": "oversight",
+          "label": "Submit records to independent oversight",
+          "reputation": {
+            "law": 1,
+            "academy": -1,
+            "criminal": 0
+          }
+        },
+        {
+          "id": "command",
+          "label": "Follow Vanguard chain of command",
+          "reputation": {
+            "law": 1,
+            "academy": 2,
+            "criminal": 0
+          }
+        },
+        {
+          "id": "broker",
+          "label": "Trade records to a fixer",
+          "reputation": {
+            "law": -2,
+            "academy": -2,
+            "criminal": 2
+          }
+        }
+      ],
+      "requires": [
+        "ROW_DEMO_01"
+      ]
+    },
+    {
+      "id": "ROW_DEMO_03",
+      "title": "The Ethics Professor",
+      "location": "Academy lecture hall",
+      "objectives": [
+        "Attend ethics lecture",
+        "Compare testimony with academy records",
+        "Confront the professor",
+        "Choose whether to disclose evidence"
+      ],
+      "choices": [
+        {
+          "id": "publish",
+          "label": "Expose the professor",
+          "reputation": {
+            "law": 1,
+            "academy": -2,
+            "criminal": 0
+          }
+        },
+        {
+          "id": "quiet",
+          "label": "Ask for a confidential inquiry",
+          "reputation": {
+            "law": 1,
+            "academy": 0,
+            "criminal": 0
+          }
+        },
+        {
+          "id": "leverage",
+          "label": "Keep the evidence as leverage",
+          "reputation": {
+            "law": -1,
+            "academy": 0,
+            "criminal": 2
+          }
+        }
+      ],
+      "requires": [
+        "ROW_DEMO_02"
+      ]
+    }
+  ],
+  "implementation_note": "Mission 1 and the records/aftermath demo are implemented by ROWNarrative::Session. Gala and professor scenes remain later content."
+}

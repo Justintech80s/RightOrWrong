@@ -1,0 +1,64 @@
+{
+  "status": "PLAN_ONLY_NOT_EXECUTED",
+  "steps": [
+    [
+      "editor_compile",
+      [
+        "/not-installed/UE_5.8/Engine/Build/BatchFiles/Build.bat",
+        "RightOrWrongEditor",
+        "Win64",
+        "Development",
+        "/workspace/scratch/053648274812/RightOrWrong_8Stage_Demo_Source/RightOrWrong.uproject",
+        "-WaitMutex",
+        "-NoHotReloadFromIDE"
+      ]
+    ],
+    [
+      "asset_generation",
+      [
+        "/not-installed/UE_5.8/Engine/Binaries/Win64/UnrealEditor-Cmd.exe",
+        "/workspace/scratch/053648274812/RightOrWrong_8Stage_Demo_Source/RightOrWrong.uproject",
+        "-unattended",
+        "-nop4",
+        "-nosplash",
+        "-NullRHI",
+        "-ExecutePythonScript=/workspace/scratch/053648274812/RightOrWrong_8Stage_Demo_Source/Scripts/setup_demo.py"
+      ]
+    ],
+    [
+      "engine_automation",
+      [
+        "/not-installed/UE_5.8/Engine/Binaries/Win64/UnrealEditor-Cmd.exe",
+        "/workspace/scratch/053648274812/RightOrWrong_8Stage_Demo_Source/RightOrWrong.uproject",
+        "/Game/Maps/ROW_City",
+        "-unattended",
+        "-nop4",
+        "-NullRHI",
+        "-nosound",
+        "-ExecCmds=Automation RunTests RightOrWrong.",
+        "-TestExit=Automation Test Queue Empty",
+        "-ReportExportPath=/workspace/scratch/053648274812/RightOrWrong_8Stage_Demo_Source/BuildOutput/Automation"
+      ]
+    ],
+    [
+      "windows_package",
+      [
+        "/not-installed/UE_5.8/Engine/Build/BatchFiles/RunUAT.bat",
+        "BuildCookRun",
+        "-project=/workspace/scratch/053648274812/RightOrWrong_8Stage_Demo_Source/RightOrWrong.uproject",
+        "-noP4",
+        "-platform=Win64",
+        "-clientconfig=Development",
+        "-build",
+        "-cook",
+        "-stage",
+        "-pak",
+        "-prereqs",
+        "-archive",
+        "-archivedirectory=/workspace/scratch/053648274812/RightOrWrong_8Stage_Demo_Source/BuildOutput/WindowsDemo",
+        "-map=/Game/Maps/ROW_City",
+        "-utf8output"
+      ]
+    ]
+  ]
+}

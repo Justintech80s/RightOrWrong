@@ -1,0 +1,58 @@
+{
+  "project": "Right or Wrong",
+  "build": "0.3.0",
+  "competitive_sports": [
+    {
+      "sport": "Karate",
+      "status": "playable graybox strike/block practice, not authentic scored kumite",
+      "first_milestone": "kumite scoring, legal targets, rounds, penalties, kata modes, animations",
+      "training_station": "three-timed-cue tutorial prototype coded in v0.3; not a realistic sports simulation"
+    },
+    {
+      "sport": "Judo",
+      "status": "planned",
+      "first_milestone": "grip, throw, breakfall, ground positions, wazari/ippon scoring",
+      "training_station": "three-timed-cue tutorial prototype coded in v0.3; not a realistic sports simulation"
+    },
+    {
+      "sport": "Taekwondo",
+      "status": "planned",
+      "first_milestone": "kick animations, target zones, distance, scoring, protective gear",
+      "training_station": "three-timed-cue tutorial prototype coded in v0.3; not a realistic sports simulation"
+    },
+    {
+      "sport": "Archery",
+      "status": "planned",
+      "first_milestone": "bow aim/charge, projectile physics, distances, scores",
+      "training_station": "three-timed-cue tutorial prototype coded in v0.3; not a realistic sports simulation"
+    },
+    {
+      "sport": "Fencing",
+      "status": "planned",
+      "first_milestone": "footwork, foil/epee/sabre, parry/riposte, right-of-way",
+      "training_station": "three-timed-cue tutorial prototype coded in v0.3; not a realistic sports simulation"
+    },
+    {
+      "sport": "Shooting",
+      "status": "planned",
+      "first_milestone": "controlled sport shooting range, air pistol and rifle, electronic targets and scores",
+      "training_station": "three-timed-cue tutorial prototype coded in v0.3; not a realistic sports simulation"
+    }
+  ],
+  "careers": [
+    {
+      "type": "Athlete",
+      "status": "prototype match, sports reputation, cash"
+    },
+    {
+      "type": "Law enforcement",
+      "status": "prototype clue-pickup patrol and law reputation"
+    },
+    {
+      "type": "Criminal",
+      "status": "prototype underground bout and criminal reputation"
+    }
+  ],
+  "note": "Only the listed prototype activities are implemented. No claim of production gameplay or official sports compliance.",
+  "story_status": "Academy induction, sport selection, six training tutorial stations, first evidence choice, and first playable branch consequences coded; game not engine-tested"
+}

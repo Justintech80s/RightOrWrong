@@ -1,0 +1,85 @@
+PASS: Declared runtime module
+PASS: Declared engine target
+PASS: RightOrWrong.cpp all delimiters closed
+PASS: ROWWorldDirector.cpp matching header first
+PASS: ROWWorldDirector.cpp local dependency ROWWorldDirector.h
+PASS: ROWWorldDirector.cpp local dependency ROWCharacter.h
+PASS: ROWWorldDirector.cpp local dependency ROWOpponent.h
+PASS: ROWWorldDirector.cpp local dependency ROWBlockout.h
+PASS: ROWWorldDirector.cpp local dependency ROWTrainingTarget.h
+PASS: ROWWorldDirector.cpp local dependency ROWSaveGame.h
+PASS: ROWWorldDirector.cpp all delimiters closed
+PASS: ROWOpponent.cpp matching header first
+PASS: ROWOpponent.cpp local dependency ROWOpponent.h
+PASS: ROWOpponent.cpp all delimiters closed
+PASS: ROWCharacter.cpp matching header first
+PASS: ROWCharacter.cpp local dependency ROWCharacter.h
+PASS: ROWCharacter.cpp local dependency ROWGameMode.h
+PASS: ROWCharacter.cpp local dependency ROWWorldDirector.h
+PASS: ROWCharacter.cpp all delimiters closed
+PASS: ROWGameMode.cpp matching header first
+PASS: ROWGameMode.cpp local dependency ROWGameMode.h
+PASS: ROWGameMode.cpp local dependency ROWCharacter.h
+PASS: ROWGameMode.cpp local dependency ROWWorldDirector.h
+PASS: ROWGameMode.cpp local dependency ROWHUD.h
+PASS: ROWGameMode.cpp all delimiters closed
+PASS: ROWHUD.cpp matching header first
+PASS: ROWHUD.cpp local dependency ROWHUD.h
+PASS: ROWHUD.cpp local dependency ROWGameMode.h
+PASS: ROWHUD.cpp local dependency ROWWorldDirector.h
+PASS: ROWHUD.cpp local dependency ROWCharacter.h
+PASS: ROWHUD.cpp local dependency ROWBlockout.h
+PASS: ROWHUD.cpp all delimiters closed
+PASS: ROWVenue.cpp matching header first
+PASS: ROWVenue.cpp local dependency ROWVenue.h
+PASS: ROWVenue.cpp all delimiters closed
+PASS: ROWTrainingTarget.cpp matching header first
+PASS: ROWTrainingTarget.cpp local dependency ROWTrainingTarget.h
+PASS: ROWTrainingTarget.cpp all delimiters closed
+PASS: ROWNarrativeAutomation.cpp local dependency ROWNarrative.h
+PASS: ROWNarrativeAutomation.cpp local dependency ROWSaveGame.h
+PASS: ROWNarrativeAutomation.cpp all delimiters closed
+PASS: ROWCombatAutomation.cpp local dependency ROWCombatRules.h
+PASS: ROWCombatAutomation.cpp local dependency ROWNarrative.h
+PASS: ROWCombatAutomation.cpp local dependency ROWSaveGame.h
+PASS: ROWCombatAutomation.cpp all delimiters closed
+PASS: ROWWorldDirector.h generated header last
+PASS: ROWWorldDirector.h reflected body
+PASS: ROWSaveGame.h generated header last
+PASS: ROWSaveGame.h reflected body
+PASS: ROWGameMode.h generated header last
+PASS: ROWGameMode.h reflected body
+PASS: ROWVenue.h generated header last
+PASS: ROWVenue.h reflected body
+PASS: ROWCharacter.h generated header last
+PASS: ROWCharacter.h reflected body
+PASS: ROWTrainingTarget.h generated header last
+PASS: ROWTrainingTarget.h reflected body
+PASS: ROWOpponent.h generated header last
+PASS: ROWOpponent.h reflected body
+PASS: ROWHUD.h generated header last
+PASS: ROWHUD.h reflected body
+PASS: Input Interact
+PASS: Input Attack
+PASS: Input Block
+PASS: Input Save
+PASS: Input Load
+PASS: Input ChoiceOne
+PASS: Input ChoiceTwo
+PASS: Input ChoiceThree
+PASS: Input ChoiceFour
+PASS: Input ChoiceFive
+PASS: Input ChoiceSix
+PASS: Input PauseMenu
+PASS: Input Journal
+PASS: Input Advance
+PASS: Configured game map
+PASS: Configured game mode
+PASS: Slate dependencies
+PASS: No spoken-dialogue playback in narrative or UI
+PASS: AI opponent is instantiated
+PASS: Live combat uses tested match model
+PASS: Runtime blockout shares checked geometry
+PASS: Checkpoint fallback retains older save
+PASS: Opponent uses swept character movement
+PASS: 84 preflight assertions. Unreal compilation and graphics testing are not part of this script.

@@ -1,0 +1,456 @@
+{
+  "edition": "Eight-Stage Demo Source 1",
+  "status": "SOURCE_ONLY_WINDOWS_EXECUTABLE_NOT_CREATED",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 1047,
+      "sha256": "c6a28910b3a5790c4e69fb06c2ad0385d6d618ba3e97506deff2f31a26f30040"
+    },
+    {
+      "path": "BuildEvidence/Engine_Environment.json",
+      "bytes": 417,
+      "sha256": "cb3df51503287904c6c3797df90faa51f18c13de307d8c03b9727d2f31958598"
+    },
+    {
+      "path": "BuildEvidence/Verification.json",
+      "bytes": 5032,
+      "sha256": "ada785ff727af20a95e10c73a6d792925d3cb3230af6ee854a0d0548e2bace62"
+    },
+    {
+      "path": "BuildEvidence/Windows_Build_Attempt.log",
+      "bytes": 143,
+      "sha256": "a4df5a377f4a5005dd7d391f36f809861e85b4c72c8ce0f5fe9767e17488d95b"
+    },
+    {
+      "path": "BuildEvidence/Windows_Pipeline_Plan.json",
+      "bytes": 1999,
+      "sha256": "041725049867d222946efa85088c16f0e7ba62c37deddf18ed47892af6583594"
+    },
+    {
+      "path": "BuildEvidence/blockout_test.log",
+      "bytes": 525,
+      "sha256": "2b38988e815b2decc9ec5f4f54f11c9c432e1801d7bbb1b2bb85c4783bba9a8d"
+    },
+    {
+      "path": "BuildEvidence/blockout_test_compile.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "BuildEvidence/combat_demo_test.log",
+      "bytes": 120,
+      "sha256": "8ec9e2b82a4b4d7a1338aecfcd5ce506f9416616131b50fc0df93bc0c3c97b41"
+    },
+    {
+      "path": "BuildEvidence/combat_demo_test_compile.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "BuildEvidence/mission_data.log",
+      "bytes": 86,
+      "sha256": "fbed7d7bdb47900ec1164b1462ca169080d9652c5a015e601a9421aa19eeecdb"
+    },
+    {
+      "path": "BuildEvidence/narrative_demo_test.log",
+      "bytes": 137,
+      "sha256": "33118459fabcde24a0663fab8e0f568549980f521d9d8dd4059bead438e93ec7"
+    },
+    {
+      "path": "BuildEvidence/narrative_demo_test_compile.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "BuildEvidence/pipeline_safeguards.log",
+      "bytes": 110,
+      "sha256": "770a5a7cfd5ed30408387c611037fc3fb16dc0c5873dba409dd6aae6c67d7bb1"
+    },
+    {
+      "path": "BuildEvidence/source_preflight.log",
+      "bytes": 3656,
+      "sha256": "6fd9a68504dcd679fae533f61f483dafa6cb26d9a019161f578c71d755c5755b"
+    },
+    {
+      "path": "BuildEvidence/story_routing_test.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "BuildEvidence/story_routing_test_compile.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "BuildEvidence/verify_pedagogy.log",
+      "bytes": 41,
+      "sha256": "b513cae24301847b322f7d89636d5a3ccaa58f1ea8074c1e60e4b5c4a07addef"
+    },
+    {
+      "path": "BuildEvidence/verify_pedagogy_compile.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "BuildEvidence/verify_rules.log",
+      "bytes": 71,
+      "sha256": "f9f5a626b8d23b341bdda3468442221529598888c17eb83844e3c7c070f8038e"
+    },
+    {
+      "path": "BuildEvidence/verify_rules_compile.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "Build_Windows_Demo.ps1",
+      "bytes": 822,
+      "sha256": "29225bd276b518ecffab11a861a9e96168931bf79f82e0efcc823c4ca9058269"
+    },
+    {
+      "path": "Config/DefaultEngine.ini",
+      "bytes": 307,
+      "sha256": "8acb258e941f3054df9f5da3e31cdc99d28389b293cbf44fc49a7d64b33c186c"
+    },
+    {
+      "path": "Config/DefaultGame.ini",
+      "bytes": 422,
+      "sha256": "80aa4e0270ab682fa9a0c237c8e3e8215f83832b30e3c9ca0d23a85f675f5717"
+    },
+    {
+      "path": "Config/DefaultInput.ini",
+      "bytes": 1276,
+      "sha256": "c98f247017c71e48b2fd41a953cc1e81128ad2a33b910cf5e8a4520a1eab6c18"
+    },
+    {
+      "path": "Docs/DEMO_MISSION_PACK_v05.json",
+      "bytes": 3274,
+      "sha256": "73df23843db3bc6f62808a29609f029b63d2635bfa4c6e31bf0a0461a45dedc9"
+    },
+    {
+      "path": "Docs/IMPLEMENTATION_AND_VERIFICATION.md",
+      "bytes": 7767,
+      "sha256": "00a11c487c4f9651adc3f20329c008f000f4afd3534c721939edd96dfa3e2997"
+    },
+    {
+      "path": "Docs/Legacy_v0_6/ACADEMY_CHAPTER.md",
+      "bytes": 4506,
+      "sha256": "87aaeca97002bf01562d8a48ffb818e45d8737818408542f494d6d1cf6fd30e4"
+    },
+    {
+      "path": "Docs/Legacy_v0_6/CAST_AND_MISSIONS.md",
+      "bytes": 2571,
+      "sha256": "ab0953bf65dac1a907c747019c4e93773cc36c3bf934772a02ac40df5b0deb02"
+    },
+    {
+      "path": "Docs/Legacy_v0_6/DEVELOPER_TEST_PLAN.md",
+      "bytes": 1840,
+      "sha256": "9c17a7601acab510823fa8aad2f85f43d51057ad328ec96f09dfff2372bc82c2"
+    },
+    {
+      "path": "Docs/Legacy_v0_6/HIDDEN_STORY_ROUTING_v06.md",
+      "bytes": 835,
+      "sha256": "7b3a4c23ec1b8bbbe5138913934a5fec53f4acc1a1a1d55c184789b13fcd8789"
+    },
+    {
+      "path": "Docs/Legacy_v0_6/IMPLEMENTATION_STATUS.md",
+      "bytes": 1504,
+      "sha256": "be13c20033271c7e1e1b8266eb10a3e9d8aed2e21c1926467b9e6f8b095f5cba"
+    },
+    {
+      "path": "Docs/Legacy_v0_6/NEXT_STEPS.md",
+      "bytes": 1078,
+      "sha256": "e8cf5c3cf85b4a2b6b2a25e13f99cc0dcf8956b2646158bbce5fb6db27bf2fa3"
+    },
+    {
+      "path": "Docs/Legacy_v0_6/SPORTS_ROADMAP.json",
+      "bytes": 2422,
+      "sha256": "de9d9985e58c7c12ccd6bff04b719e58c99dbf5b800315ca95425b68dd6df005"
+    },
+    {
+      "path": "Docs/Legacy_v0_6/STATIC_TEST_RESULTS.txt",
+      "bytes": 5198,
+      "sha256": "0c5f8f5d1abd6fd143881552dc245dbba0b1ebbfed777efdefe3fbe17a4dc19e"
+    },
+    {
+      "path": "Docs/Legacy_v0_6/STATIC_TEST_RESULTS_v04.txt",
+      "bytes": 5733,
+      "sha256": "18db7eef094f7a6c0258afefe3a41c6c3670a741a5daa21bb334093b77899ee5"
+    },
+    {
+      "path": "Docs/Legacy_v0_6/STORY_BIBLE.md",
+      "bytes": 9732,
+      "sha256": "4bf2187ae0ab49a10bd963a74c389355a7da4ffe0c2b44ef5f436091e2534611"
+    },
+    {
+      "path": "Docs/Legacy_v0_6/STORY_MISSIONS.json",
+      "bytes": 4777,
+      "sha256": "a3e621070d752f9a304f4b5c9bdd190c8f50270f03b78224062edcc04983f822"
+    },
+    {
+      "path": "Docs/Legacy_v0_6/TRAINING_SYSTEM.md",
+      "bytes": 3402,
+      "sha256": "16ee5898e53de72cbe2ccfcc1a9d099d2407c6703cc8aece77a173528cc9af0c"
+    },
+    {
+      "path": "Docs/Legacy_v0_6/VERTICAL_SLICE_v05.md",
+      "bytes": 1489,
+      "sha256": "c635d3b8f17f330262c52978834ff186e5fc8b3056d9e7d10eec51f2bf80d4dd"
+    },
+    {
+      "path": "Docs/NARRATIVE_GUIDE.md",
+      "bytes": 2094,
+      "sha256": "8312862ef1b5eff58256536848589e0acc7850158ce03d9aa98ef69c935d1800"
+    },
+    {
+      "path": "Docs/SPARRING_AND_DISTRICT_DIALOGUE.md",
+      "bytes": 1224,
+      "sha256": "1a166b0279131cb42fe2e1c28eff3fe98ab057e6c79296adeaa3e2db9112eec1"
+    },
+    {
+      "path": "Docs/THREE_RELEASE_PLAN.md",
+      "bytes": 2361,
+      "sha256": "7146840ec6a4da8c7862f6e89e070a6707c23c20674543cc9be3b91fe933a0c4"
+    },
+    {
+      "path": "Docs/UNREAL_ACCEPTANCE_CHECKLIST.md",
+      "bytes": 5718,
+      "sha256": "b63329dbbc96ce01b8a3ad689c69451fbe8f3996ccc1863cc9993d822a60e803"
+    },
+    {
+      "path": "Docs/WINDOWS_DEMO_ACCEPTANCE.md",
+      "bytes": 4016,
+      "sha256": "8e4b5bad8603d8e8e2ea4f4d2ee10dee98e12e88dec6754c8f16247503e1328e"
+    },
+    {
+      "path": "Docs/WRITTEN_DIALOGUE.md",
+      "bytes": 10731,
+      "sha256": "f341e6d88816121458f52ff1fbba04a0dccac941584c6b1e0853d1bb20a1b0a2"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7850,
+      "sha256": "f74cb6e7bae9fcd46bd9e97bde63bb178fd7176de9beea2499e9c31cdb610f7f"
+    },
+    {
+      "path": "RightOrWrong.uproject",
+      "bytes": 463,
+      "sha256": "e52b2fc4857ec609c45c9310db8b2ab740a89463f8cb79d496de4ac4d323a1dd"
+    },
+    {
+      "path": "Scripts/build_windows.py",
+      "bytes": 6201,
+      "sha256": "273dbae2e9f3b58b56f4d4069f33826f5ef926100a1df223774f996b086d45f8"
+    },
+    {
+      "path": "Scripts/export_dialogue.cpp",
+      "bytes": 2085,
+      "sha256": "f23ba1a13519d9761ee3606bd34d5b0ea9695451e4b652a796e09ca3f5d58b81"
+    },
+    {
+      "path": "Scripts/run_checks.py",
+      "bytes": 2592,
+      "sha256": "786217e0b06fc1d68a83e96b7da467e119fa5ef256f00a1976410d3ecf583423"
+    },
+    {
+      "path": "Scripts/setup_demo.py",
+      "bytes": 2474,
+      "sha256": "c249357d57612afa26b3eb85d73dd5626666357d5537ddbf29fe81bd683d4821"
+    },
+    {
+      "path": "Scripts/verify_demo_missions.py",
+      "bytes": 791,
+      "sha256": "a0860c7955f3aaab4578e8c3d62326a687d505dd25c45584f2a1bd3570272648"
+    },
+    {
+      "path": "Scripts/verify_pedagogy.cpp",
+      "bytes": 868,
+      "sha256": "d53c309c7905ebae1d9d668685bf2204abb99372a2cb216c11d2828e36047357"
+    },
+    {
+      "path": "Scripts/verify_rules.cpp",
+      "bytes": 1174,
+      "sha256": "6b9c9f44d7c79cc9129424857a4fc0717cad3e82e93e4290a51667d3df794a6d"
+    },
+    {
+      "path": "Scripts/verify_source.py",
+      "bytes": 3517,
+      "sha256": "e34d4f67d68226362ab4bc6a911431401b3307f83c60dfc70357e35eed0739bd"
+    },
+    {
+      "path": "Scripts/verify_windows_package.py",
+      "bytes": 2057,
+      "sha256": "186d2db2a707d7cb6a4f2476e4bd4009d126023e8598eff19a2317b0a4485f8e"
+    },
+    {
+      "path": "Source/RightOrWrong/ROWBlockout.h",
+      "bytes": 3685,
+      "sha256": "df3a84c2e14981b60593e94fd9aa2f725c91e433a785ec56e53e00fa2461f5cd"
+    },
+    {
+      "path": "Source/RightOrWrong/ROWCharacter.cpp",
+      "bytes": 10567,
+      "sha256": "0aac1cb19a80e5df3d194e5ee7e5b54062f27133c32683fb521cb7aa1ce9f91a"
+    },
+    {
+      "path": "Source/RightOrWrong/ROWCharacter.h",
+      "bytes": 1750,
+      "sha256": "1e4856b707cd66b0641eaebd8645be9c26905c1e04aee524287df3dc74c4dc96"
+    },
+    {
+      "path": "Source/RightOrWrong/ROWCombatRules.h",
+      "bytes": 9249,
+      "sha256": "de6a248837ce7e834972627a2e63fe58ab2ff1ce3961bae201a2510993d59a04"
+    },
+    {
+      "path": "Source/RightOrWrong/ROWGameMode.cpp",
+      "bytes": 1407,
+      "sha256": "a2f59d246a3b2ffb53531895c471ebf17bbc3512b16bb26a513eef1ec849e980"
+    },
+    {
+      "path": "Source/RightOrWrong/ROWGameMode.h",
+      "bytes": 606,
+      "sha256": "51379fad5e98e5af95c5d26fba487d51739a19ce1d409c77d0ff7471dd4a12fe"
+    },
+    {
+      "path": "Source/RightOrWrong/ROWHUD.cpp",
+      "bytes": 10801,
+      "sha256": "c61e639b124cd6a7052154643ac5c836c78951c9094f673d65ee781d212632cf"
+    },
+    {
+      "path": "Source/RightOrWrong/ROWHUD.h",
+      "bytes": 394,
+      "sha256": "95071fcd344e996e7506e5a9f42cdae39fff408dafe4f86b07704016bfcc933e"
+    },
+    {
+      "path": "Source/RightOrWrong/ROWNarrative.h",
+      "bytes": 32045,
+      "sha256": "cdb1cdbc0aa101419effe8fe6aadd33bd6152fd584a1d883538ddde0fce1daab"
+    },
+    {
+      "path": "Source/RightOrWrong/ROWOpponent.cpp",
+      "bytes": 3452,
+      "sha256": "844a0f6e0af433e302030842f28a7e3c03e654d6b9b95cd6207070051d781267"
+    },
+    {
+      "path": "Source/RightOrWrong/ROWOpponent.h",
+      "bytes": 935,
+      "sha256": "0ccb9a90da4792e1d9cb75683da058bb7859e12b904a41b7d43e2ed75bae9f99"
+    },
+    {
+      "path": "Source/RightOrWrong/ROWPedagogyRules.h",
+      "bytes": 1597,
+      "sha256": "a5303ca2927f6e65aa2771a46969facbf05db8cf14e0d318b6b702f176bb7d4c"
+    },
+    {
+      "path": "Source/RightOrWrong/ROWProgressionRules.h",
+      "bytes": 2427,
+      "sha256": "6e25ff7a4d90df0176882c72cb38c23c2d68d073e70f2e1e61302bc5a4783bbc"
+    },
+    {
+      "path": "Source/RightOrWrong/ROWSaveGame.h",
+      "bytes": 852,
+      "sha256": "a0a2b3670fe8cdb322e1a8464b2fd52b0ba844cc71e05ada6c5f75e51ba62e4d"
+    },
+    {
+      "path": "Source/RightOrWrong/ROWStoryRoutingRules.h",
+      "bytes": 1867,
+      "sha256": "704832cd5e0d0a079b0893650c27c6c29b039b2ebc27eb12c9d165702464ef6c"
+    },
+    {
+      "path": "Source/RightOrWrong/ROWTrainingTarget.cpp",
+      "bytes": 2400,
+      "sha256": "ccb6401d235090d0ac155822c1c3e9dbc6c6b0c00d890be27989d96c7cecfea5"
+    },
+    {
+      "path": "Source/RightOrWrong/ROWTrainingTarget.h",
+      "bytes": 702,
+      "sha256": "656b0e05b02cd86195c0dfe516d1dead4f713796210a148ba3ba00284235a6b2"
+    },
+    {
+      "path": "Source/RightOrWrong/ROWVenue.cpp",
+      "bytes": 2712,
+      "sha256": "7df24239415b996bfb0b913d612385f61749972f1427bfb819e1ab45d01085d9"
+    },
+    {
+      "path": "Source/RightOrWrong/ROWVenue.h",
+      "bytes": 1413,
+      "sha256": "f7f8bbcfe59c14bc16c67ca1d90f7f89547a3fcee3a6e3af1cbfaba737a65085"
+    },
+    {
+      "path": "Source/RightOrWrong/ROWWorldDirector.cpp",
+      "bytes": 30391,
+      "sha256": "e5b1f91678c83e57fd6642bc60f219ca11782328e4a9a88df95572176aa2665b"
+    },
+    {
+      "path": "Source/RightOrWrong/ROWWorldDirector.h",
+      "bytes": 2927,
+      "sha256": "d39bedfd721ff01047d2ae94dced36b3d159f0a0ff6fc1939094d680ac021946"
+    },
+    {
+      "path": "Source/RightOrWrong/RightOrWrong.Build.cs",
+      "bytes": 355,
+      "sha256": "f5d2368e31169bc117cc43059d81fdd71d194deb9a6832530dc05a167b40e16a"
+    },
+    {
+      "path": "Source/RightOrWrong/RightOrWrong.cpp",
+      "bytes": 121,
+      "sha256": "9fb403b40065e8be8829357c2307619df6e05cd652b2e8ed9a9620fb858e3ff1"
+    },
+    {
+      "path": "Source/RightOrWrong/Tests/ROWCombatAutomation.cpp",
+      "bytes": 3040,
+      "sha256": "5665064beb7815d16fdad69c8819a0cbe7d8ac23ae92fc5ffad6e26986361a02"
+    },
+    {
+      "path": "Source/RightOrWrong/Tests/ROWNarrativeAutomation.cpp",
+      "bytes": 1912,
+      "sha256": "d028417c284577cd006672be1c4e842b23d2ed4963dcd388b1cb418151e45a42"
+    },
+    {
+      "path": "Source/RightOrWrong.Target.cs",
+      "bytes": 318,
+      "sha256": "f2d0e14dce0974bd4c255e802cbc070d2c6d67b022e47193ca11a43e6b80c814"
+    },
+    {
+      "path": "Source/RightOrWrongEditor.Target.cs",
+      "bytes": 332,
+      "sha256": "94bbb660fd7a8f5ce9017bcae60581e12b025ccc9a56b83ebd36593567432c3d"
+    },
+    {
+      "path": "Tests/blockout_test.cpp",
+      "bytes": 1618,
+      "sha256": "f5d3aaf50333aa603d9b6422028bbf7c740aa51ba17d3869ddc3a48491758550"
+    },
+    {
+      "path": "Tests/combat_demo_test.cpp",
+      "bytes": 7001,
+      "sha256": "a456d29e3ccfd0c6ef0976ed4dc2bce04cafd1a8cbaf7bd4d7c78e5320b87737"
+    },
+    {
+      "path": "Tests/narrative_demo_test.cpp",
+      "bytes": 8989,
+      "sha256": "9f09a5b22e1cfa1ad25a8855235b242db4a6c85e21add793684b25645cc33c43"
+    },
+    {
+      "path": "Tests/story_routing_test.cpp",
+      "bytes": 826,
+      "sha256": "ee6fd26b66d367008e970db066dec75f8a9effb12f73ab48d84a2948714f1a95"
+    },
+    {
+      "path": "Tests/test_build_pipeline.py",
+      "bytes": 1969,
+      "sha256": "0f2bd1fd3cf238d4c21557d7d461d7698312d45d5f91ae7206829faeabb9ce3c"
+    },
+    {
+      "path": "Tests/test_windows_package.py",
+      "bytes": 2858,
+      "sha256": "e764c1b063a1c8247b9bedfdf16bc26a49c3700988e43947746b0e5bba72e20d"
+    }
+  ],
+  "repository_import": {
+    "repository": "Justintech80s/RightOrWrong",
+    "archive_sha256": "396e83bf19dee23e7299edf8edc1f61b28fe1ea2acbf4b8611c01f734418af69",
+    "note": "Project unpacked at repository root. Existing repository ignore rules retained, with editor, build-output and Python-cache exclusions. Only .gitignore and this provenance manifest differ from the uploaded archive."
+  }
+}

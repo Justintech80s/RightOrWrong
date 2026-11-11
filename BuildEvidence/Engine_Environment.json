@@ -1,0 +1,14 @@
+{
+  "checked_utc": "2026-11-11",
+  "os": "Linux",
+  "machine": "x86_64",
+  "unreal_editor_on_path": null,
+  "unreal_commandlet_on_path": null,
+  "windows_build_tools_on_path": null,
+  "cpp_compiler": "/usr/bin/g++",
+  "unreal_engine_roots_present": [],
+  "connected_windows_hosts": 0,
+  "windows_build": "BLOCKED_NO_WINDOWS_UNREAL_HOST",
+  "graphics_playtest": "NOT_RUN",
+  "compiled_game_executable": "NOT_CREATED"
+}
